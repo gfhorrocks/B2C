@@ -29,3 +29,15 @@
     <a href="/#/newcustomer">New Customer</a>
   </div>
 </template>
+
+<script>
+
+</script>
+
+<style>
+
+a{
+  color: black;
+}
+
+</style>

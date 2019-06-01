@@ -91,6 +91,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  
+
 }
 #nav-collapse {
   font-size: 60px;
@@ -111,4 +113,15 @@ a:hover {
 #mainNav {
   background-color: rgb(255, 0, 0);
 }
+
+.newcustomer,.newvendor,.customer,.vendor{
+
+  border-color: black;
+  border-width: 4px;
+  border-style: solid;
+  padding: 10px;
+}
+
+
+
 </style>
