@@ -103,11 +103,12 @@
 
 a {
   font-weight: bold;
-  color: #ffffff;
+  color: black;
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: white;
+  text-decoration: none;
 }
 
 #mainNav {
