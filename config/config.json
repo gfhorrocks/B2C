@@ -7,7 +7,7 @@
     "dialect": "mysql"
   },
   "production": {
-    "use_env_variable": "mysql://ch58n71ry9pwiupo:v7yfalocl8q47dg6@mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/bb47r5r3vuxhj0ts",
+    "use_env_variable": "mysql://l60lukejobonkx17:nvlm5i9auyx0avgd@mgs0iaapcj3p9srz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/p6wxdeg4m5euap7l",
     "dialect": "mysql"
   }
 }
