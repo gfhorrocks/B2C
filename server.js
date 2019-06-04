@@ -16,9 +16,12 @@ if (process.env.NODE_ENV === "production") {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-var routes = require("./controllers/Customer_controller.js");
+var customerRoutes = require("./controllers/Customer_controller.js");
+var vendorRoutes = require("./controllers/Vendor_controller");
+var checkinRoutes = require("./controllers/Checkins_controller");
 
-app.use(routes);
+
+app.use(customerRoutes,vendorRoutes,checkinRoutes);
 
 db.sequelize.sync().then(function() {
   app.listen(PORT, function() {

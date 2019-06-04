@@ -34,54 +34,6 @@
 </template>
 
 <script>
-// import axios from 'axios';
-
-// export default {
-//   name: 'app',
-
-//   data: function() {
-//     return {
-//       burgers: [],
-//       burgerName: ""
-//     }
-//   },
-
-//   created: function() {
-//     this.fetchBurgers();
-//   },
-
-//   methods: {
-//     fetchBurgers: function() {
-//       axios.get('/api/burgers/').then(
-//         function(burgers) {
-//           this.burgers = burgers.data;
-//         }.bind(this)
-//       );
-//     },
-
-//     devourBurger: function(burger_id) {
-//       console.log(burger_id);
-//       axios.put("/api/burgers/" + burger_id).then(
-//         function(data) {
-//           // Rerender the page with the updated list
-//           this.fetchBurgers();
-//         }.bind(this)
-//       );
-//     },
-
-//     createBurger: function() {
-//       console.log(this.burgerName);
-//       axios.post("/api/burgers/", {
-//         burger_name: this.burgerName
-//       }).then(
-//         function(data) {
-//           // Rerender the page with the updated list
-//           this.fetchBurgers();
-//         }.bind(this)
-//       );
-//     }
-//   }
-// }
 </script>
 
 <style>
@@ -90,9 +42,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  
 
+}
+
+html{
+    background-color: rgb(255,0,0);
 }
 #nav-collapse {
   font-size: 60px;
@@ -106,23 +60,29 @@ a {
   color: black;
   text-decoration: none;
 }
-a:hover {
-  color: white;
-  text-decoration: none;
-}
 
 #mainNav {
   background-color: rgb(255, 0, 0);
 }
 
-.newcustomer,.newvendor,.customer,.vendor{
-
+.newcustomer,
+.newvendor,
+.customer,
+.vendor {
   border-color: black;
   border-width: 4px;
   border-style: solid;
   padding: 10px;
 }
 
+.home {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  margin-bottom: 600px;
+}
 
-
+a:hover {
+  color: white;
+  text-decoration: none;
+}
 </style>
